@@ -10,4 +10,8 @@
     <PackageReference Include="taglib-sharp-netstandard2.0" Version="2.1.0" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <RuntimeIdentifiers>win-x86;win-x64;linux-x64;osx-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
 </Project>
